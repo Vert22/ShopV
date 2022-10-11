@@ -1,173 +1,215 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>ShopV</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/index2.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-<link rel="stylesheet" href="/css/index.css">
-<style>
-body,h1,h2,h3,h5,h6 {font-family: 'Brush Script MT'; color: aqua; }
-.w3-bar-block .w3-bar-item {padding:20px}
-p,h4 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-</style>
+  <title>ShopV</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/index2.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+  <link rel="stylesheet" href="/css/index.css">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h5,
+    h6 {
+      font-family: 'Brush Script MT';
+      color: aqua;
+    }
+
+    .w3-bar-block .w3-bar-item {
+      padding: 20px
+    }
+
+    p,
+    h4 {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  </style>
 </head>
+
 <body>
 
-<!-- Menu - Escondido -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-bar-item w3-button">Fechar Menu</a>
-  <a href="/index.html" onclick="w3_close()" class="w3-bar-item w3-button">Produtos</a>
-  <a href="/Pages/Ajuda.html" onclick="w3_close()" class="w3-bar-item w3-button">Sobre</a>
-</nav>
+  <!-- Menu - Escondido -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+    style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Fechar Menu</a>
+    <a href="/index.html" onclick="w3_close()" class="w3-bar-item w3-button">Produtos</a>
+    <a href="/Pages/Ajuda.html" onclick="w3_close()" class="w3-bar-item w3-button">Sobre</a>
+  </nav>
 
-<!--  menu do topo -->
-<div class="w3-top">
-  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
-    <div class="w3-button w3-padding-16 w3-left menyou" onclick="w3_open()">Menu</div>
-    <a href="/Pages/Ajuda.html"><div class="w3-right w3-padding-16">Contato</div></a>
-    <a href="/index.html"><div class="w3-center w3-padding-16">Produtos</div></a>
-  </div>
-</div>
-  
-<!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
-
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center" >
-    <div class="w3-quarter">
-      <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/90d2468b2d1989f25f441b526d0e4db0" style="width:100%"></a>
-      <h3>Vaporesso Renova ZERO</h3>
-      <p><b>R$ 140,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/sg-11134201-22100-tapqwqavtciv59" style="width:100%"></a>
-      <h3>Vaporesso KoKo</h3>
-      <p><b>R$ 139,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto1.html"><img src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/92525ff768fa43bff79589eaa3077325_400x.jpg?v=1657313522" style="width:100%"></a>
-      <h3>Uwell AEGLOS H2 60W Pod Mod</h3>
-      <p><b>R$ 140,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto2.html"><img src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/Geekvapeh45blue_400x.jpg?v=1659623252" style="width:100%"></a>
-      <h3>Geek Vape H45 (Aegis Hero 2) Pod Mod Kit</h3>
-      <p><b>R$ 39,00</b></p>
-    </div>
-  
-  </div>
-  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-    <div class="w3-quarter">
-      <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a" style="width:100%"></a>
-      <h3>Osmall</h3>
-      <p><b>R$ 140,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto2.html"><img src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/f2ecff62a08c4f500d9639951472021e_400x.png?v=1657315527" style="width:100%"></a>
-      <h3>Case Iphone ZOI MACACO </h3>
-      <p><b>Deluxe </b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto1.html"><img src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/LuxeXmods_400x.jpg?v=1662669163" style="width:100%"></a>
-      <h3>Vaporesso Luxe X Pod Mod Kit</h3>
-      <p><b>R$ 140,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto2.html"><img src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/9188e687444fb8922e264930446b3025_400x.jpg?v=1657316551" style="width:100%"></a>
-      <h3>VOOPOO DRAG X 80W Pod Mod Kit</h3>
-      <p><b>R$ 239,00</b></p>
-    </div>
-  </div>
-  
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-quarter">
-      <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a" style="width:100%"></a>
-      <h3>Pistola AirSoft Glock</h3>
-      <p><b>R$ 140,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/3bc03a44b1dc9c451c9fc875c167f70a" style="width:100%"></a>
-      <h3>Case Iphone ZOI MACACO </h3>
-      <p><b>R$ 39,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a" style="width:100%"></a>
-      <h3>Pistola AirSoft Glock</h3>
-      <p><b>R$ 140,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/3bc03a44b1dc9c451c9fc875c167f70a" style="width:100%"></a>
-      <h3>Case Iphone ZOI MACACO </h3>
-      <p><b>R$ 39,00</b></p>
-    </div>
-  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
-    <div class="w3-quarter">
-      <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a" style="width:100%"></a>
-      <h3>Pistola AirSoft Glock</h3>
-      <p><b>R$ 140,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/3bc03a44b1dc9c451c9fc875c167f70a" style="width:100%"></a>
-      <h3>Case Iphone ZOI MACACO </h3>
-      <p><b>R$ 39,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a" style="width:100%"></a>
-      <h3>Pistola AirSoft Glock</h3>
-      <p><b>R$ 140,00</b></p>
-    </div>
-    <div class="w3-quarter">
-      <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/3bc03a44b1dc9c451c9fc875c167f70a" style="width:100%"></a>
-      <h3>Case Iphone ZOI MACACO </h3>
-      <p><b>R$ 39,00</b></p>
-    </div>
-  </div>
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="/Indexacao/index2.html" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="/Indexacao/index2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="/Indexacao/index3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="/Indexacao/index4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="/Indexacao/index2.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+  <!--  menu do topo -->
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-button w3-padding-16 w3-left men menyou" onclick="w3_open()">Menu</div>
+      <a href="/Pages/Ajuda.html">
+        <div class="w3-right w3-padding-16 men">Contato</div>
+      </a>
+      <a href="/index.html">
+        <div class="w3-center w3-padding-16 men">Produtos</div>
+      </a>
     </div>
   </div>
 
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32 w3-center">  
-    <h3>Sobre nossa loja</h3><br>
-    <img src="https://img.lovepik.com/photo/40007/5312.jpg_wh860.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
-    <div class="w3-padding-32">
-      <h4><b>Ola sou apenas um vendendor</b></h4>
-      <h6>Qualquer pedido entregamos em no maximo 12 dias uteis</h6>
-      <p>Nao perca tempo , faça seu pedido qualquer duvida pode nos chamar nos canais de atendimento ao cliente</p>
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/90d2468b2d1989f25f441b526d0e4db0"
+            style="width:100%"></a>
+        <h3>Vaporesso Renova ZERO</h3>
+        <p><b>R$ 140,00</b></p>
+      </div>
+      <div class="w3-quarter">
+        <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/sg-11134201-22100-tapqwqavtciv59"
+            style="width:100%"></a>
+        <h3>Vaporesso KoKo</h3>
+        <p><b>R$ 139,00</b></p>
+      </div>
+      <div class="w3-quarter">
+        <a href="/produtos/produto1.html"><img
+            src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/92525ff768fa43bff79589eaa3077325_400x.jpg?v=1657313522"
+            style="width:100%"></a>
+        <h3>Uwell AEGLOS H2 60W Pod Mod</h3>
+        <p><b>R$ 140,00</b></p>
+      </div>
+      <div class="w3-quarter">
+        <a href="/produtos/produto2.html"><img
+            src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/Geekvapeh45blue_400x.jpg?v=1659623252"
+            style="width:100%"></a>
+        <h3>Geek Vape H45 (Aegis Hero 2) Pod Mod Kit</h3>
+        <p><b>R$ 39,00</b></p>
+      </div>
+
     </div>
-  </div>
-  <hr>
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+      <div class="w3-quarter">
+        <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a"
+            style="width:100%"></a>
+        <h3>Osmall</h3>
+        <p><b>R$ 140,00</b></p>
+      </div>
+      <div class="w3-quarter">
+        <a href="/produtos/produto2.html"><img
+            src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/f2ecff62a08c4f500d9639951472021e_400x.png?v=1657315527"
+            style="width:100%"></a>
+        <h3>Case Iphone ZOI MACACO </h3>
+        <p><b>Deluxe </b></p>
+      </div>
+      <div class="w3-quarter">
+        <a href="/produtos/produto1.html"><img
+            src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/LuxeXmods_400x.jpg?v=1662669163"
+            style="width:100%"></a>
+        <h3>Vaporesso Luxe X Pod Mod Kit</h3>
+        <p><b>R$ 140,00</b></p>
+      </div>
+      <div class="w3-quarter">
+        <a href="/produtos/produto2.html"><img
+            src="https://cdn.shopify.com/s/files/1/0568/3809/4913/products/9188e687444fb8922e264930446b3025_400x.jpg?v=1657316551"
+            style="width:100%"></a>
+        <h3>VOOPOO DRAG X 80W Pod Mod Kit</h3>
+        <p><b>R$ 239,00</b></p>
+      </div>
+    </div>
 
- 
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a"
+            style="width:100%"></a>
+        <h3>Pistola AirSoft Glock</h3>
+        <p><b>R$ 140,00</b></p>
+      </div>
+      <div class="w3-quarter">
+        <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/3bc03a44b1dc9c451c9fc875c167f70a"
+            style="width:100%"></a>
+        <h3>Case Iphone ZOI MACACO </h3>
+        <p><b>R$ 39,00</b></p>
+      </div>
+      <div class="w3-quarter">
+        <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a"
+            style="width:100%"></a>
+        <h3>Pistola AirSoft Glock</h3>
+        <p><b>R$ 140,00</b></p>
+      </div>
+      <div class="w3-quarter">
+        <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/3bc03a44b1dc9c451c9fc875c167f70a"
+            style="width:100%"></a>
+        <h3>Case Iphone ZOI MACACO </h3>
+        <p><b>R$ 39,00</b></p>
+      </div>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+        <div class="w3-quarter">
+          <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a"
+              style="width:100%"></a>
+          <h3>Pistola AirSoft Glock</h3>
+          <p><b>R$ 140,00</b></p>
+        </div>
+        <div class="w3-quarter">
+          <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/3bc03a44b1dc9c451c9fc875c167f70a"
+              style="width:100%"></a>
+          <h3>Case Iphone ZOI MACACO </h3>
+          <p><b>R$ 39,00</b></p>
+        </div>
+        <div class="w3-quarter">
+          <a href="/produtos/produto1.html"><img src="https://cf.shopee.com.br/file/bcdcdde7eabbe22b883d534501ff541a"
+              style="width:100%"></a>
+          <h3>Pistola AirSoft Glock</h3>
+          <p><b>R$ 140,00</b></p>
+        </div>
+        <div class="w3-quarter">
+          <a href="/produtos/produto2.html"><img src="https://cf.shopee.com.br/file/3bc03a44b1dc9c451c9fc875c167f70a"
+              style="width:100%"></a>
+          <h3>Case Iphone ZOI MACACO </h3>
+          <p><b>R$ 39,00</b></p>
+        </div>
+      </div>
+      <!-- Pagination -->
+      <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+          <a href="/Indexacao/index2.html" class="w3-bar-item w3-black w3-button">1</a>
+          <a href="/Indexacao/index2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+          <a href="/Indexacao/index3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+          <a href="/Indexacao/index4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+          <a href="/Indexacao/index2.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+      </div>
+
+      <!-- About Section -->
+      <div class="w3-container w3-padding-32 w3-center">
+        <h3>Sobre nossa loja</h3><br>
+        <img src="https://img.lovepik.com/photo/40007/5312.jpg_wh860.jpg" alt="Me" class="w3-image"
+          style="display:block;margin:auto" width="800" height="533">
+        <div class="w3-padding-32">
+          <h4><b>Ola sou apenas um vendendor</b></h4>
+          <h6>Qualquer pedido entregamos em no maximo 12 dias uteis</h6>
+          <p>Nao perca tempo , faça seu pedido qualquer duvida pode nos chamar nos canais de atendimento ao cliente</p>
+        </div>
+      </div>
+      <hr>
 
 
-<!-- End page content -->
-</div>
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+
+      <!-- End page content -->
+    </div>
+
+    <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+      }
+    </script>
 
 </body>
+
 </html>
